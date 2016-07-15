@@ -31,6 +31,7 @@ public class Grid_view extends ActionBarActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //final String item = (String) parent.getItemAtPosition(position);
+                // Just adding a single line comment
                 Toast.makeText(getApplicationContext(),names[position],Toast.LENGTH_LONG).show();
 
 
